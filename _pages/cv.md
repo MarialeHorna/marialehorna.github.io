@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <p style="margin: 0 0 1.5em 0;">
-  <a href="/files/cv.pdf" class="btn btn--primary btn--large" style="padding: 0.6em 1.2em; font-size: 1em;">⬇ Download CV (PDF)</a>
+  <a href="/files/cv_mariale.pdf" class="btn btn--primary btn--large" style="padding: 0.6em 1.2em; font-size: 1em;">⬇ Download CV (PDF)</a>
 </p>
 
 A condensed version of the CV is below. For the full, formatted PDF, use the download button above.
@@ -91,5 +91,5 @@ Member, *Visionarios Academic Circle* — Latin American research consortium on 
 ---
 
 <p style="margin: 2em 0;">
-  <a href="/files/cv.pdf" class="btn btn--primary btn--large" style="padding: 0.6em 1.2em; font-size: 1em;">⬇ Download CV (PDF)</a>
+  <a href="/files/cv_mariale.pdf" class="btn btn--primary btn--large" style="padding: 0.6em 1.2em; font-size: 1em;">⬇ Download CV (PDF)</a>
 </p>
