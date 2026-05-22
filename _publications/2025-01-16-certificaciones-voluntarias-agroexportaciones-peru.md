@@ -1,8 +1,8 @@
 ---
-title: "Efecto de las certificaciones voluntarias sobre las agroexportaciones no tradicionales en el Perú"
+title: "The Impact of Voluntary Certifications on Non-Traditional Agricultural Exports in Peru"
 collection: publications
 permalink: /publication/2025-certificaciones-voluntarias-agroexportaciones-peru
-excerpt: 'Análisis empírico (PSM + Diferencias en Diferencias) del efecto de la certificación GlobalGAP sobre el valor exportado de las firmas agroexportadoras peruanas, con implicancias para política pública y competitividad agrícola.'
+excerpt: 'An empirical analysis (PSM + Differences-in-Differences) of the effect of GlobalGAP certification on the export value of Peruvian agricultural export firms, with implications for public policy and agricultural competitiveness'
 date: 2025-01-16
 venue: 'Journal of Business, Universidad del Pacífico (Lima, Peru), 16(1)'
 paperurl: 'https://doi.org/10.21678/jb.2025.2392'
