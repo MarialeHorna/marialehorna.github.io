@@ -1,15 +1,13 @@
 ---
 layout: archive
-title: "Talks and presentations"
-permalink: /talks/
+title: "Speaking & Media"
+permalink: /speaking/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
+<p>Selected conferences, panels, and public talks on climate finance, sustainable investment, and economic development in Latin America. For published research see <a href="/writing/">Writing</a>.</p>
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
