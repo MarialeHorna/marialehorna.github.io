@@ -1,5 +1,6 @@
 {% comment %}
-Language switcher: shows EN | ES toggle inline using flexbox wrapper.
+Language switcher: three separate <li> items so they respect the
+parent <ul>'s flex/flow without wrapping mid-element.
 {% endcomment %}
 
 {% assign is_spanish = false %}
@@ -7,16 +8,16 @@ Language switcher: shows EN | ES toggle inline using flexbox wrapper.
   {% assign is_spanish = true %}
 {% endif %}
 
-<li class="masthead__menu-item persist">
-  <span style="display: inline-flex; align-items: center; gap: 0.3em; font-size: 0.85em; letter-spacing: 0.05em; white-space: nowrap;">
-    {% if is_spanish %}
-      <a href="{{ base_path }}/" title="Switch to English" style="text-decoration: none;">EN</a>
-      <span style="opacity: 0.5;">|</span>
-      <span style="font-weight: 700;">ES</span>
-    {% else %}
-      <span style="font-weight: 700;">EN</span>
-      <span style="opacity: 0.5;">|</span>
-      <a href="{{ base_path }}/es/" title="Cambiar a español" style="text-decoration: none;">ES</a>
-    {% endif %}
-  </span>
-</li>
+{% if is_spanish %}
+  <li class="masthead__menu-item persist">
+    <a href="{{ base_path }}/" title="Switch to English">EN</a>
+  </li>
+  <li class="masthead__menu-item persist" style="opacity: 0.4; padding: 0 0.2em;">|</li>
+  <li class="masthead__menu-item persist" style="font-weight: 700;">ES</li>
+{% else %}
+  <li class="masthead__menu-item persist" style="font-weight: 700;">EN</li>
+  <li class="masthead__menu-item persist" style="opacity: 0.4; padding: 0 0.2em;">|</li>
+  <li class="masthead__menu-item persist">
+    <a href="{{ base_path }}/es/" title="Cambiar a español">ES</a>
+  </li>
+{% endif %}
